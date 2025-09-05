@@ -38,7 +38,7 @@
      */
     public int getPrice()
     {
-        return price;
+      return price;  
     }
 
     /**
@@ -57,7 +57,10 @@
     {
         balance = balance + amount;
     }
-
+    
+    public int getTotal() {
+        return total;
+    }
     /**
      * Print a ticket.
      * Update the total collected and
